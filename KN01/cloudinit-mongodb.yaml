@@ -25,7 +25,7 @@ write_files:
       db.createUser(
         {
           user: "admin",
-          pwd: "admin",
+          pwd: "adam1234",
           roles: [
             { role: "userAdminAnyDatabase", db: "admin" },
             { role: "readWriteAnyDatabase", db: "admin" }
